@@ -1,17 +1,15 @@
 #include "main.h"
-/**
- *_puts - prints a string
- * @str: string to print
- *
- * Description: prints a string
- * On success: return the number of characters printed
- */
+#include <stdio.h>
 
+/**
+ * _puts - prints the string folowed by a new line
+ * @str: Pointer to the input
+ * Return: Always 0 (Success)
+ * Author: IanoNjuguna
+ */
 void _puts(char *str)
 {
-while (*str)
-_putchar(*str++);
-
-_putchar('\n');
+	printf("%s\n", str);
 }
+
 
