@@ -1,4 +1,4 @@
-i#include "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
@@ -28,4 +28,5 @@ va_end(li);
 return (sum);
 
 }
+
 
